@@ -1,0 +1,22 @@
+
+ COMANDOS DO GIT 
+
+git add .  : adiciona a alteracão feita para o stege 
+
+git commit: -m ´qual foi a alteracáo´:
+
+git log: Exibe o historico de versães do git 
+
+git status : Exibe os status do git 
+
+git checkout ID DO COMMIT¨ : Volta para a  versão indicada 
+(NUNCA FAZER ¨GI checkout¨ ANTES DE COMMITAR AS ALTERÃOES FEITAS NO PROJETO)
+
+branch: Ramificacão da Linhas do tempo Principal 
+obs: Não Pode-se usar espacos e caracteristicas especias para criar uma nova branch  
+
+Conflito :
+
+Merge :
+
+Mudar de branch : Git checkout `Nome da branch para qual quer Retorna`

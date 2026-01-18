@@ -1,0 +1,212 @@
+SSD 
+
+USO: SSD USUARIO@SERVIDOR
+FUNCÃO: CONECTA-SE A UMA MAQUINA LINUUX REMOTAMENTE
+
+LS 
+
+USO: LS,LS-L,LS-A 
+FUNCÃO: LISTA AS ORQUIVOS NO DIRETORIO ATUAL, COMM OPCÕES PARA VIZUALIZACÀO DETALHADA E ARQUIVOS OCULTOS 
+
+PWD 
+
+USO: PWD
+FUNCÃO: EXIBE O DIRETORIO DE TRABALHO ATUAL 
+
+CD 
+
+USO: CD CAMINHO, CD.., CD 
+FUNCÃO: ALTERA O DIRETORIO ATUAL PARA I CAMINHO ESPECIFICADO 
+
+TOUCH 
+
+USO: TOUCH NOME_DO_ARQUIVO
+FUNCÃO: CRIAR UM NOVO ARQUIVO OU ATUALIZA O CARIMBO DE DATA/HORA DE UM ARQUIVO EXISTENTE 
+
+ECHO 
+
+USO: ECHO `TEXTO`>ARQUIVO 
+FUNCÃO: EXIBE O TEXTO OU REDIRECIONA PARA UM ARQUIVO 
+
+NANO 
+
+USO: NANO NOME_DO_ARQUIVO
+FUNCÃO: ABR UM ARQUIVO NO EDITOOR DE TEXTO NANO 
+
+VIM
+
+USO : VIM NOME_DO_ARQUIVO
+FUNCÃO: ABRE UM ARQUIVO NOEDITOR DE TEXO VIM 
+
+CAT 
+
+USO: CAT NOME_DO_ARQUIVO 
+FUNCÃO: CONCATENA E XIBE O CONTEUDO DE ARQUIVOS 
+
+SHRED
+
+USO: SHRED NOME_DO_ARQUIVO
+FNCÃO: SOBRESCREVE UM ARQUIVO PARA OCULTAR SEU CONTEUDO E, OPCINALMENTE, O EXCLUI
+
+MKDIR 
+
+USO: MKDIR NOME_DO_ARQUIVO
+FUNCÃO: CRIAR UM NOVO DIRETORIO 
+
+CP 
+ 
+ USO: CP ARQUIVO DESTINO 
+ FUNCÃO: COPIA ARQUIVOS E DIRETORIOS 
+
+ MK 
+
+ USO : MV ARQUIVO DESTINO 
+ FUNCÃO: MOVE OU REMONEIA AQUIVOS E DIRETORIOS 
+
+ RM 
+
+USO: RM ARQUIVO, RM-R DIRETORIO 
+FUNCÃO:REMOVE ARQUIVOS OU DIRETORIOS 
+
+LN 
+Uso: ln -s arquivo link
+Função: Cria um link simbólico para um arquivo.
+
+Clear 
+Uso: clear
+Função: Limpa a tela do terminal.
+
+Whoami 
+Uso: whoami
+Função: Exibe o nome de usuário do usuário atual.
+
+Adduser 
+Uso: sudo adduser nome_de_usuário
+Função: Adiciona um novo usuário ao sistema.
+
+Sudo 
+Uso: sudo comando
+Função: Executa um comando com privilégios de superusuário.
+
+SU 
+Uso: su nome_de_usuário
+Função: Alterna o usuário atual para outro usuário.
+
+Exit 
+Uso: exit
+Função: Sai da sessão ou shell atual.
+
+Passwd 
+Uso: passwd nome_de_usuário
+Função: Altera a senha de um usuário.
+
+APT 
+Uso: sudo apt update, sudo apt install pacote
+Função: Gerencia a instalação e atualização de pacotes em sistemas baseados em Debian.
+
+Finger 
+Uso: finger nome_de_usuário
+Função: Exibe informações sobre um usuário.
+
+Man 
+Uso: man comando
+Função: Exibe a página do manual de um comando.
+
+Whatis 
+Uso: whatis comando
+Função: Exibe uma breve descrição de um comando.
+
+Which
+Uso: which comando
+Função: Mostra o caminho para o executável do comando.
+
+Wget 
+Uso: wget URL
+Função: Baixa arquivos da internet.
+
+Curl 
+Uso: curl URL > arquivo
+Função: Transfere dados de ou para um servidor.
+
+Zip 
+Uso: zip arquivo.zip arquivo
+Função: Compacta arquivos em um arquivo zip.
+
+Unzip 
+Uso: unzip arquivo.zip
+Função: Extrai arquivos de um arquivo zip.
+
+Less 
+Uso: less nome_do_arquivo
+Função: Exibe o conteúdo de um arquivo, uma página por vez.
+
+Head
+Uso: head nome_do_arquivo
+Função: Exibe as primeiras linhas de um arquivo.
+
+Tail 
+Uso: tail nome_do_arquivo
+Função: Exibe as últimas linhas de um arquivo.
+
+CMP 
+Uso: cmp arquivo1 arquivo2
+Função: Compara dois arquivos byte a byte.
+
+Diff 
+Uso: diff arquivo1 arquivo2
+Função: Exibe as diferenças entre dois arquivos.
+
+Sort 
+Uso: sort nome_do_arquivo
+Função: Ordena as linhas de um arquivo.
+
+Find 
+Uso: find diretório -nome nome_do_arquivo
+Função: Busca arquivos em uma hierarquia de diretórios.
+
+CHMOD 
+Uso: chmod +x nome_do_arquivo
+Função: Altera o modo (permissões) de um arquivo.
+
+CHOWN 
+Uso: chown usuário nome_do_arquivo
+Função: Altera o proprietário de um arquivo.
+
+Ifconfig 
+Uso: ifconfig
+Função: Configura interfaces de rede.
+
+IP 
+Uso: endereço_ip
+Função: Exibe e manipula roteamento, dispositivos, roteamento baseado em políticas e túneis.
+
+Grep 
+Uso: grep padrão arquivo
+Função: Busca padrões em arquivos.
+
+Awk 
+Uso: awk padrão arquivo
+Função: Uma linguagem de programação versátil para trabalhar com arquivos.
+
+Resolveconf 
+Uso: resolveconf status
+Função: Gerencia a configuração do resolvedor DNS do sistema.
+
+Ping 
+Uso: ping hostname
+Função: Verifica a acessibilidade de um host em uma rede IP.
+
+Traceroute 
+Uso: traceroute hostname
+Função: Rastreia a rota que os pacotes percorrem até um host na rede.
+
+Netstat 
+Uso: netstat, netstat -tulpen
+Função: Exibe conexões de rede, tabelas de roteamento, estatísticas de interface, conexões de mascaramento e associações multicast.
+
+SS 
+Uso: ss -tulpen
+Função: Outro utilitário para investigar sockets.
+
+
+
